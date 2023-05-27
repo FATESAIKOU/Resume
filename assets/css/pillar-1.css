@@ -10707,6 +10707,19 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   width: 15px;
   height: 15px;
   border: 4px solid #58677c;
+  background: #58677c;
+  border-radius: 50%;
+}
+
+.resume-timeline-item-child:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 15px;
+  height: 15px;
+  border: 4px solid #58677c;
   background: white;
   border-radius: 50%;
 }
